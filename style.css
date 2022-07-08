@@ -37,9 +37,10 @@ body{
   flex-direction: column;
 }
 
-.counter-wrapper__count{
+.counter-wrapper__display{
   font-size: 6.2rem;
   text-align: center;
+  color: red;
 }
 
 .counter-wrapper__buttons{
