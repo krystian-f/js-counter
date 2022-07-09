@@ -32,43 +32,43 @@ body{
   font-size: 3.8rem;
 }
 
-.counter-wrapper{
+.counter{
   display: flex;
   flex-direction: column;
 }
 
-.counter-wrapper__display{
+.counter__display{
   font-size: 6.2rem;
   text-align: center;
   color: red;
 }
 
-.counter-wrapper__buttons{
+.counter__buttons{
   width:100%;
   display:flex;
   flex-direction: row;
   gap: 2rem;
 }
 
-.counter-button{
+.counter__button{
   font-size: 2rem;
   padding: .5rem 1rem;
   border: 1px solid hsl(0, 0%, 0%);
   border-radius: 10%;
 }
 
-.counter-button:hover{
+.counter__button:hover{
   cursor: pointer;
 }
 
-.counter-button--decrease:hover{
+.counter__button--decrease:hover{
   background-color: hsl(0, 50%, 75%)
 }
 
-.counter-button--increase:hover{
+.counter__button--increase:hover{
   background-color: hsl(210, 50%, 75%)
 }
 
-.counter-button--reset:hover{
+.counter__button--reset:hover{
   background-color: hsl(90, 50%, 75%)
 }
